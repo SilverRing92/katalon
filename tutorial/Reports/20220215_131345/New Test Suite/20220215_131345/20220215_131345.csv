@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 98.0.4758.82,,,2022-02-15 13:13:55,2022-02-15 13:14:45,50.899s,PASSED
+,,,,,,,
+Test Cases/01Login,Chrome 98.0.4758.82,,,2022-02-15 13:13:55,2022-02-15 13:14:38,43.233s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 13:13:56,2022-02-15 13:14:00,4.135s,PASSED
+"navigateToUrl(""https://www.kt.com/"")",Chrome 98.0.4758.82,,,2022-02-15 13:14:00,2022-02-15 13:14:05,4.303s,PASSED
+maximizeWindow(),Chrome 98.0.4758.82,,,2022-02-15 13:14:05,2022-02-15 13:14:05,0.219s,PASSED
+"click(findTestObject(""Page_KT/img_mainloginicon""))",Chrome 98.0.4758.82,,,2022-02-15 13:14:05,2022-02-15 13:14:36,30.842s,PASSED
+"switchToWindowUrl(""https://login.kt.com/wamui/AthWebPopup.do?urlcd=https%3A%2F%2Fwww.kt.com%2F"")",Chrome 98.0.4758.82,,,2022-02-15 13:14:36,2022-02-15 13:14:38,2.772s,PASSED
+,,,,,,,
+Test Cases/01-1standardlogin,Chrome 98.0.4758.82,,,2022-02-15 13:14:38,2022-02-15 13:14:45,7.008s,PASSED
+"setText(findTestObject(""Object Repository/Page_KT/input__userId""), ""roqneod"")",Chrome 98.0.4758.82,,,2022-02-15 13:14:39,2022-02-15 13:14:40,0.882s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_KT/input__password""), ""zsqjouLBKxb/gU+DpQlJ/A=="")",Chrome 98.0.4758.82,,,2022-02-15 13:14:40,2022-02-15 13:14:41,0.591s,PASSED
+"click(findTestObject(""Page_KT/a_loginbutton""))",Chrome 98.0.4758.82,,,2022-02-15 13:14:41,2022-02-15 13:14:41,0.511s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_KT/inpu_captcha""), 3, OPTIONAL))",Chrome 98.0.4758.82,,,2022-02-15 13:14:41,2022-02-15 13:14:43,1.686s,PASSED
+"switchToWindowUrl(""https://www.kt.com/"")",Chrome 98.0.4758.82,,,2022-02-15 13:14:43,2022-02-15 13:14:45,2.557s,PASSED

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="50.899" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="50.899" skipped="0" timestamp="2022-02-15 13:13:55" hostname="Lee Hui Min - DESKTOP-D4OV4C1" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lee Hui Min\\Desktop\\katalonproject\\tutorial\\Reports\\20220215_131345\\New Test Suite\\20220215_131345"/>
+         <property name="logFiles" value="C:\\Users\\Lee Hui Min\\Desktop\\katalonproject\\tutorial\\Reports\\20220215_131345\\New Test Suite\\20220215_131345\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lee Hui Min - DESKTOP-D4OV4C1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.0.59"/>
+         <property name="sessionId" value="cb1c51597e5a946b0fe50f8bff1487db"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/01Login" time="43.233" classname="Test Cases/01Login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 13:13:55 - [TEST_CASE][PASSED] - Test Cases/01Login: Test Cases/01Login
+
+2022-02-15 13:13:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 13:13:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 13:13:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 13:14:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 13:14:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kt.com/"): Navigate to 'https://www.kt.com/' successfully
+
+2022-02-15 13:14:05 - [MESSAGE][PASSED] - Navigate to 'https://www.kt.com/' successfully
+
+2022-02-15 13:14:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-02-15 13:14:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-15 13:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_KT/img_mainloginicon")): Object: 'Object Repository/Page_KT/img_mainloginicon' is clicked on
+
+2022-02-15 13:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KT/img_mainloginicon' is clicked on
+
+2022-02-15 13:14:36 - [TEST_STEP][PASSED] - switchToWindowUrl("https://login.kt.com/wamui/AthWebPopup.do?urlcd=https%3A%2F%2Fwww.kt.com%2F"): Switched to window with url: 'https://login.kt.com/wamui/AthWebPopup.do?urlcd=https%3A%2F%2Fwww.kt.com%2F'
+
+2022-02-15 13:14:38 - [MESSAGE][PASSED] - Switched to window with url: 'https://login.kt.com/wamui/AthWebPopup.do?urlcd=https%3A%2F%2Fwww.kt.com%2F']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-1standardlogin" time="7.008" classname="Test Cases/01-1standardlogin" status="PASSED">
+         <system-out><![CDATA[2022-02-15 13:14:38 - [TEST_CASE][PASSED] - Test Cases/01-1standardlogin: Test Cases/01-1standardlogin
+
+2022-02-15 13:14:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KT/input__userId"), "roqneod"): Text 'roqneod' is set on object 'Object Repository/Page_KT/input__userId'
+
+2022-02-15 13:14:40 - [MESSAGE][PASSED] - Text 'roqneod' is set on object 'Object Repository/Page_KT/input__userId'
+
+2022-02-15 13:14:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_KT/input__password"), "zsqjouLBKxb/gU+DpQlJ/A=="): Text ****** has been set on object 'Object Repository/Page_KT/input__password'
+
+2022-02-15 13:14:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KT/input__password'
+
+2022-02-15 13:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_KT/a_loginbutton")): Object: 'Object Repository/Page_KT/a_loginbutton' is clicked on
+
+2022-02-15 13:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KT/a_loginbutton' is clicked on
+
+2022-02-15 13:14:41 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_KT/inpu_captcha"), 3, OPTIONAL)): Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at 01-1standardlogin.run(01-1standardlogin:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644898425790.run(TempTestSuite1644898425790.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at Script1644890015511.run(Script1644890015511.groovy:26)
+	... 13 more
+)
+
+2022-02-15 13:14:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_KT/inpu_captcha' does not exist
+
+2022-02-15 13:14:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-02-15 13:14:43 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2022-02-15 13:14:43 - [MESSAGE][WARNING] - Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at 01-1standardlogin.run(01-1standardlogin:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644898425790.run(TempTestSuite1644898425790.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at Script1644890015511.run(Script1644890015511.groovy:26)
+	... 13 more
+)
+
+2022-02-15 13:14:43 - [TEST_STEP][PASSED] - switchToWindowUrl("https://www.kt.com/"): Switched to window with url: 'https://www.kt.com/'
+
+2022-02-15 13:14:45 - [MESSAGE][PASSED] - Switched to window with url: 'https://www.kt.com/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-15 13:13:55 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/01-1standardlogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
